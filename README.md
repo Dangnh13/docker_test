@@ -1,7 +1,4 @@
 # docker_test
-
-### build image:
- > docker build -t ignore .
  
 ### build image:
  > docker build -t ignore .
@@ -14,3 +11,9 @@
 
 ### exec IT
 >  docker exec -it ignore_test /bin/sh
+
+### remove image
+> docker image rm -f ignore
+
+### list images
+> docker images -a
